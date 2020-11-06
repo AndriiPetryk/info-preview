@@ -1,0 +1,30 @@
+.holder {
+  cursor: pointer;
+  position: relative;
+  line-height: 24px;
+  transition: transform 0.3s ease;
+}
+
+.total {
+  color: #fff;
+  position: absolute;
+  font-size: 13px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+}
+
+.withTotal {
+  animation: pulse 333ms linear 3 normal;
+}
+
+.wishListIconDefault {
+ color: gray;
+}
+
+.wishListIconFilled {
+  color: red;
+}
+
+

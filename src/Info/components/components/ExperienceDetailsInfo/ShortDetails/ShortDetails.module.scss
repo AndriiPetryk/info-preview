@@ -1,0 +1,39 @@
+.holder {
+  margin: 0 0 20px;
+  overflow: hidden;
+}
+
+.item {
+  display: flex;
+  float: left;
+  margin: 0 0 0 35px;
+  font: 500 15px/24px Montserrat, Arial, Helvetica, sans-serif;
+  align-content: center;
+  svg {
+    margin-right: 10px;
+  }
+}
+
+.item:first-child {
+  margin: 0;
+}
+
+.holder :global .material-icons {
+  line-height: 24px;
+  margin: 0 8px 0 0;
+}
+
+.groupsize {
+  margin-right: 12px;
+  color: #28B7D5;
+}
+
+.duration {
+  margin-right: 10px;
+  color: #F5C97C;
+}
+
+.location {
+  margin-right: 13px;
+  color: #4FBAA1;
+}

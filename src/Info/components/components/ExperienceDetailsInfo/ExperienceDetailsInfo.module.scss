@@ -1,0 +1,49 @@
+.holder {
+  width: 564px;
+  background: #FFFFFF;
+}
+
+.carouselHolder {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px 8px 0 0;
+}
+
+.infoCategory {
+  margin: 0 0 4px;
+}
+
+.carouselInfo {
+  padding: 38px 40px 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(
+    0.36deg,
+    rgba(#000000, 0.6) 1.65%,
+    rgba(#000000, 0) 98.65%
+  );
+}
+
+.infoTitle {
+  font: 500 24px/32px Montserrat, Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+}
+
+.experienceDetailsHolder {
+  padding: 26px 40px 32px;
+}
+
+.infoPicture {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+.wishlist {
+  position: absolute;
+  top: 28px;
+  right: 36px;
+}

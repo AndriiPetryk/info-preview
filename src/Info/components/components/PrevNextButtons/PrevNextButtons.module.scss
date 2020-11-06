@@ -1,0 +1,40 @@
+@mixin arrow {
+  position: absolute !important;
+  top: 360px;
+  z-index: 2;
+  background: #FFFFFF !important;
+  border-radius: 41px !important;
+  cursor: pointer;
+  width: 80px;
+  line-height: 24px;
+  text-align: center;
+  justify-content: center;
+  padding: 10px 6px;
+  font-weight: 500;
+  white-space: nowrap;
+  color: #53737A !important;
+  svg {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  &:hover {
+    color: #000000 !important;
+    background: #FFFFFF !important;
+  }
+}
+
+.nextArrow {
+  @include arrow;
+  right: -180px !important;
+  i {
+    margin-right: -10px;
+  }
+}
+
+.prevArrow {
+  @include arrow;
+  left: -180px !important;
+  i {
+    margin-left: -10px;
+  }
+}
